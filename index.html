@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+    <title>Sb Report Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><style type="text/css" abt="234"></style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                </br>
+                <h2>骂小泽专用页面</h2>
+                <hr>
+                <h4>善意的提醒</h4>
+                <p>
+                反馈请务必填写 QQ 号码。</br>
+                </p>
+                <hr>
+                <div id="valine-placeholder"></div>
+				<hr>
+				<center>
+                (C) 2019-present CatNetwork · <a href="https://github.com/SozaBot/sb_report_page/blob/main/LICENSE">The SATA License</a>
+                
+                </span>
+				</center>
+			</div>
+        </div>
+    </div>
+  </body>
+
+<script>
+    var localeName = 'fujaoese',
+    localeMode = {
+
+            nick:'QQ 好马',
+            mail:'邮箱?(email@abc.xyz)',
+            link:'网址？(http(s)://)',
+            comments:'个紫薯布丁',
+            sofa:'来做第一个紫薯布丁吧',
+            busy:'贵阳一下...',
+            again:'长颈鹿!',
+            reply:'贵阳！',
+            ok:'铲车！',
+            sure:'铲车！',
+            cancel:'踢！',
+            confirm:'铲车！',
+            continue:'铲车！',
+            more:'更多紫薯布丁...',
+            try:'更多紫薯布丁?',
+			preview: 'tix来试预览啊',
+            emoji: 'fujao表情',
+            "code-99":'初始化美丽！！！111111',
+            "code-100":'初始化美丽！！！111111',
+            "code-401":'初始化美丽！！！111111',
+            "code-403":'无法在此处贵阳 请铲车至 https://sb-report.qmqaq.top/',
+            seconds:'秒前贵阳',
+            minutes:'分钟前贵阳',
+            hours:'小时前贵阳',
+            days:'天前贵阳',
+            now:'刚刚贵阳'
+
+    };
+    var valine = new Valine();
+    //valine.installLocale(localeName,localeMode)
+    valine.init({
+        el:'#valine-placeholder',
+        appId:'pHb5m577VEmsrJaz6OvaUfmW-gzGzoHsz',
+        appKey:'TLkxWYQ6i3qhH2jXrFYHDjS2',
+	    pageSize: 20,
+        recordIP: true,
+        lang: localeName,
+        langMode: localeMode,
+		placeholder: '今天您想骂点什么！！'
+    })
+</script>
+<script>
+    //51LA 访问统计
+    !function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"JnQkLJD8MAgsuYvr",ck:"JnQkLJD8MAgsuYvr",hashMode:true});
+</script>
+<script>
+    //灵雀监控
+    !(function(c,i,e,b){
+    var h=i.createElement("script");
+    var f=i.getElementsByTagName("script")[0];
+    h.type="text/javascript";
+    h.crossorigin=true;
+    h.onload=function(){new c[b]["Monitor"]().init({id:"JnQoO8ENGWsohEcm",sendSuspicious:true,sendSpaPv:true});};
+    f.parentNode.insertBefore(h,f);h.src=e;})(window,document,"https://sdk.51.la/perf/js-sdk-perf.min.js","LingQue");
+  </script>
+</html>

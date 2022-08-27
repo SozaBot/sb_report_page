@@ -1,2 +1,5 @@
 # sb_report_page
-小泽的在线反馈页面,基于 Valine
+
+SozaBot 的在线反馈页面,基于 Valine  
+
+原项目:[fujaoese-hitokoto-submit-backup](https://github.com/fujao-time/fujaoese-hitokoto-submit-backup)
